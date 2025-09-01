@@ -1,0 +1,93 @@
+🎮 Final Prompt for Replit – ENDAGAME
+
+You are an AI coding assistant. Build an interactive educational game called “ENDAGAME” (Exploring Nucleic acids through DNA Analysis & Genetic Modification Exercises).
+
+The game should:
+
+1. Structure & Flow
+
+Start Screen: Game title, short description (“Learn DNA, genes, and GMOs while playing!”), and a Start Game button.
+
+Choose Mode:
+
+Pretest
+
+Lessons (with mini-games)
+
+Posttest
+
+Review Scores
+
+The game should save progress (so if a player finishes pretest, they can continue to lessons or posttest later).
+
+2. Pretest & Posttest
+
+Each test has 20 multiple-choice questions.
+
+Show one question at a time with 4 choices (A–D).
+
+Players must click their choice; give immediate feedback (“✅ Correct!” or “❌ Oops, the right answer is B.”).
+
+At the end: display total score and a motivational message.
+
+Pretest score should be saved for comparison with Posttest.
+
+3. Lessons (Interactive)
+
+Break lessons into 4 stages, each ending with a short mini-quiz (5 questions).
+
+Stage 1: DNA & Nucleotides (visual of double helix, base-pair matching drag-and-drop mini-game)
+
+Stage 2: Replication, Transcription, Translation (animation or step-by-step text explanation + quick quiz)
+
+Stage 3: Genes, Mutations, Heredity (scenario-based questions)
+
+Stage 4: Genetic Engineering & GMOs (ethical dilemmas + multiple-choice quiz)
+
+4. Engagement Features
+
+Gamified points system:
+
++10 points for every correct answer
+
+Bonus streak points if player gets 3 correct in a row
+
+Display running score at the top
+
+Progress bar (shows % of stage or test completed).
+
+Badges / Achievements:
+
+“DNA Rookie” – finished pretest
+
+“Gene Explorer” – finished all lessons
+
+“Genome Master” – scored >80% in posttest
+
+5. Visual & UX
+
+Use a clean, student-friendly design (blue/green science theme).
+
+Include simple DNA icons, helix images, or base-pair symbols.
+
+Use hover effects, animations (like confetti on good scores).
+
+Make it responsive (playable on desktop or phone).
+
+6. Score Tracking & Improvement
+
+At the end of posttest, compare scores:
+
+If Posttest > Pretest → show “🎉 Great job! You learned a lot!”
+
+If Posttest ≤ Pretest → encourage replay of lessons: “Keep practicing! Review Stage 2 & 3 to improve.”
+
+🔑 Extra Notes for Replit
+
+Use JavaScript + HTML + CSS (React or vanilla) for interactivity.
+
+Store progress in localStorage (so student scores remain saved on refresh).
+
+Make sure lessons and quizzes aren’t dumped at once — must be broken into steps/screens.
+
+The code should be modular so adding new questions/lessons later is easy.
